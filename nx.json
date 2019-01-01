@@ -1,0 +1,21 @@
+{
+  "npmScope": "libs",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "dashboards-my-app": {
+      "tags": ["bdrs"]
+    },
+    "dashboards-my-app-e2e": {
+      "tags": []
+    },
+    "my-lib-my-lib": {
+      "tags": ["mylib"]
+    }
+  }
+}
